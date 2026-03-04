@@ -1,0 +1,17 @@
+{
+  "name": "bikoll",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test:pipeline": "tsx scripts/testPipeline.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "@supabase/supabase-js": "^2.98.0",
+    "@types/node": "^20"
+  }
+}
